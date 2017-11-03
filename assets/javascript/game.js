@@ -48,7 +48,7 @@ var q1 = {
 };
 var q2 = {
     question2: 'What year did the movie Iron Man Debut?',
-    possibleAnswers: ['A. 2007', 'B. 2010 ', ' C. 2008', 'D. 2009'],
+    possibleAnswers2: ['A. 2007', 'B. 2010 ', ' C. 2008', 'D. 2009'],
     answer2: 'C. 2008'
 };
 var q3 = {
@@ -62,10 +62,10 @@ var q4 = {
     answer4: 'A. He Respect Drax, and because Drax and his Wife hated dancing',
 };
 
-q1.question
-q2.question
-q3.question
-q4.question
+q1.question;
+q2.question2;
+q3.question3;
+q4.question4;
 
 console.log(q1.question)
 
@@ -74,21 +74,22 @@ for (i = 0; i < q1.possibleAnswers.length; i++) {
     if (q1.possibleAnswers[i] === q1.answer) { }
 
 };
-for (i = 0; i < q2.possibleAnswers.length; i++) {
+for (i = 0; i < q2.possibleAnswers2.length; i++) {
     
-    if (q2.possibleAnswers[i] === q2.answer) { }
-console.log(q2.answer)
+    if (q2.possibleAnswers2[i] === q2.answer2) { }
+console.log(q2.answer2)
 };
 console.log(q2.question)
-for (i = 0; i < q2.possibleAnswers.length; i++) {
+for (i = 0; i < q3.possibleAnswers3.length; i++) {
     
-    if (q3.possibleAnswers[i] === q3.answer) { }
-console.log(q3.answer)
+    if (q3.possibleAnswers3[i] === q3.answer3) { }
+console.log(q3.answer3)
 };
-for (i = 0; i < q4.possibleAnswers.length; i++) {
+for (i = 0; i < q4.possibleAnswers4.length; i++) {
     
-    if (q4.possibleAnswers[i] === q4.answer) { }
-console.log(q4.answer)
+    if (q4.possibleAnswers4[i] === q4.answer) { }
+console.log(q4.answer4);
+}
 
 
 // function valueChanged() {
@@ -104,3 +105,5 @@ console.log(q4.answer)
 //     console.log(document.getElementById("possible1"));
 //     console.log(document.getElementById("possible2"))
 // }
+var x = $('#possible1').attr('value');
+console.log(x);
